@@ -180,3 +180,16 @@ form button:hover{
         margin-top: 14em;
     }
 }
+@media(max-width:375px){
+   .about-us{margin-top: 11.5em;} 
+
+}
+
+@media(max-width:360px){
+    .about-us{margin-top: 10.5em;} 
+}
+
+@media(max-width:320px){
+    .about-us{margin-top: 8em;}  
+}
+
