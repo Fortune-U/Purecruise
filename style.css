@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    background-image: url(ezgif.com-gif-maker.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #e0fbfc;
+    
+   
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid black; */
+    margin-top: 2em;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 20em;
+    margin: 0 5em;
+    list-style: none;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif
+    
+}
+li a{
+    text-decoration: none;
+    color: #b8d3ff;
+    
+}
+li a:hover{
+    transition-property: all;
+    color: #ffffff;
+    
+}
+.dp-text{
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 3em;
+    font-family: 'Hachi Maru Pop', cursive;
+    color: #FFFFFF;
+}
+
+button{
+    text-align: center;
+    width: 12em;
+    padding: 1em 0;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+    outline: none;
+   
+  
+}
+.btn button{
+    background-color: #549f93;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    font-family: 'Hachi Maru Pop', cursive;
+    color:#FFFFFF;
+    
+    transition: ease;
+}
+.btn button:hover{
+    background-color: #4d9387 ;
+
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 26em;
+    margin-bottom: 5em;
+    border-top: 5px solid #4D9387;
+}
+
+.about-us{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #383A42;
+    border-top: 5px solid #4D9387;
+    margin: 0;
+    padding: 0.8em;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif
+}
+.contact{
+  border-left: 3px solid #FFC759;
+    font-family: 'Lato', sans-serif;
+    margin: 0 1em;
+    padding: 0 0.5em;
+}
+.dp-contact{
+    margin-left: 0.7em;
+    width: 20em;
+    border: 3px solid #4D9387;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+form{
+    margin-left: 1em;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+input{
+    width: 20em;
+    margin-bottom: 1em;
+    border: solid 2px  #4D9387;
+    outline: #549f93;
+}
+form button{
+    background-color:#549f93; 
+    transition: ease;
+    border: none;
+    margin-bottom: 0.4em;
+}
+
+form button:hover{
+    background-color: #4d9387 ;
+    
+}
+
+
+@media(max-width:490px){
+    .dp-contact{
+        width: 10em;
+    }
+    .navigation{
+        display: flex;
+        justify-content: center;
+        
+        align-items: center;
+        margin-left: 0;
+        padding: 0 1em;
+    }
+    .dp-text{
+        font-size: 1.5em;
+    }
+    ul{
+        align-items: center;
+        width: 60em;
+        margin: 0 ;
+        margin-right: 1.5em;
+    }
+    body{
+        margin: 0;
+    background-image: url(ezgif.com-gif-maker.gif);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    }
+    .about-us{
+        margin-top: 8em;
+    }
+}
